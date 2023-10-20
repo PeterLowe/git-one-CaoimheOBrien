@@ -10,9 +10,17 @@ Use -f to use on working directory.
 1.	Init
 Definition and usage: 
 The git init command allows you to create or re-initialise a new repository whether than be locally or on GitHub. 
-Should be one of the first commands that you use inn a new project.  
+Should be one of the first commands that you use in a new project.  
 Syntax:
 git init 
 Screenshot:
  
+
+2.	Add
+Definition and usage: 
+The git add command adds new files to the working directory.
+Adds all files except those listed in .gitignore. 
+Syntax:
+git add .  
+Screenshot:
 
