@@ -22,5 +22,12 @@ The git add command adds new files to the working directory.
 Adds all files except those listed in .gitignore. 
 Syntax:
 git add .  
-Screenshot:
+Screenshot:  
 
+3.	Status 
+Definition and usage: 
+The git status command allows you to view the status of your files in the working directory/ whatever branch you’re currently working on.
+Syntax: 
+git status
+Screenshot:
+ 
