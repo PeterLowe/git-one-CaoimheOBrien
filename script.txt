@@ -31,3 +31,13 @@ Syntax:
 git status
 Screenshot:
  
+ 
+ 
+4.	Commit 
+Definition and usage:
+The git commit function allows this current node to be joined to previous node rather than as a separate one.
+Syntax:
+git commit -m 
+Screenshot:
+
+
