@@ -35,9 +35,13 @@ Screenshot:
  
 4.	Commit 
 Definition and usage:
-The git commit function allows this current node to be joined to previous node rather than as a separate one.
+The commit command allows the user to upload the files in the working directory and uploads them to the previous node.
+Will enter editor mode to enter multiline comment.
+Will add the label to this specific commit.  
+Should be useful names, not only for you but for anyone else who might read your code.  If you omit a label, git will force you to assign a label and will open an editor.  
 Syntax:
-git commit -m 
+git commit -m “<Commit name”
 Screenshot:
+
 
 
