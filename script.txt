@@ -22,8 +22,8 @@ The git add command adds new files to the working directory.
 Adds all files except those listed in .gitignore. 
 Syntax:
 git add .  
-Screenshot:  
-
+Screenshot: 
+ 
 3.	Status 
 Definition and usage: 
 The git status command allows you to view the status of your files in the working directory/ whatever branch you’re currently working on.
@@ -32,7 +32,6 @@ git status
 Screenshot:
  
  
- 
 4.	Commit 
 Definition and usage:
 The commit command allows the user to upload the files in the working directory and uploads them to the previous node.
@@ -43,5 +42,21 @@ Syntax:
 git commit -m “<Commit name”
 Screenshot:
 
+
+5.	Remote 
+Definition and usage: 
+Lists repositories on remote server and create a new remote repository. 
+Syntax: 
+git remote -v 
+git remote add <name> <url> 
+Screenshot
+ 
+6.	Push 
+Definition and usage:
+Updates the remote node with the current node.
+Syntax:
+git push -u origin master. 
+Screenshot:
+ 
 
 
