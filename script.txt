@@ -1,6 +1,7 @@
 Git Guide 
 By Caoimhe O’Brien
  
+ 
 Git rm example
 Git rm to remove file(s) from the staging area. #Format git rm filename 
 Can use wildcards and -r for recursive 
@@ -14,42 +15,40 @@ Should be one of the first commands that you use in a new project.
 Syntax:
 git init 
 Screenshot:
- 
-
+  
 2.	Add
 Definition and usage: 
 The git add command adds new files to the working directory.
 Adds all files except those listed in .gitignore. 
 Syntax:
 git add .  
-Screenshot: 
- 
+Screenshot:
+   
+
+
 3.	Status 
 Definition and usage: 
 The git status command allows you to view the status of your files in the working directory/ whatever branch you’re currently working on.
 Syntax: 
 git status
 Screenshot:
- 
- 
+  
+  
 4.	Commit 
 Definition and usage:
 The commit command allows the user to upload the files in the working directory and uploads them to the previous node.
-Will enter editor mode to enter multiline comment.
-Will add the label to this specific commit.  
-Should be useful names, not only for you but for anyone else who might read your code.  If you omit a label, git will force you to assign a label and will open an editor.  
+Will add the label to this specific commit -should be useful names, not only for you but for anyone else who might read your code.  If you omit a label, git will force you to assign a label and will open an editor.  
 Syntax:
-git commit -m “<Commit name”
+git commit -m “<Commit name>”
 Screenshot:
-
-
+   
 5.	Remote 
 Definition and usage: 
 Lists repositories on remote server and create a new remote repository. 
 Syntax: 
 git remote -v 
 git remote add <name> <url> 
-Screenshot
+Screenshot: 
  
 6.	Push 
 Definition and usage:
@@ -57,6 +56,45 @@ Updates the remote node with the current node.
 Syntax:
 git push -u origin master. 
 Screenshot:
+  
+
+7.	Branch
+Definition and usage:
+Lists all branches in repository. 
+The current branch is highlighted with a star.  
+Syntax:
+git branch - a/ -l/ -r  
+Screenshot:
+  
+
+ 
+8.	Log
+Definition and usage:
+Lists all commits on your branch/ repository. 
+Lists files altered and line changed.  
+Shows a condensed list.  
+only calls the last n commits.
+Syntax:
+git log 
+git log – stat 
+git log - - graph - - oneline 
+git log -n  
+Screenshot:
  
 
+
+
+9.	Merge 
+Definition and usage:
+
+Syntax:
+git 
+Screenshot:
+
+10.	Clone 
+Definition and usage:
+
+Syntax:
+git 
+Screenshot:
 
