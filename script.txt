@@ -83,6 +83,7 @@ Screenshot:
  
 
 
+
 9.	Merge 
 Definition and usage:
 Merge head with master. (Master is the main branch) 
@@ -91,6 +92,9 @@ Warn if conflict and not merge.
 Syntax:
 git merge master 
 Screenshot:
-
-10.	Clone 
-
+10.	Stash 
+Definition and usage:
+Creates a local only copy of the current working directory.  
+Syntax:
+git stash
+screenshot:
