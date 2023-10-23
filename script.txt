@@ -83,18 +83,14 @@ Screenshot:
  
 
 
-
 9.	Merge 
 Definition and usage:
-
+Merge head with master. (Master is the main branch) 
+Git will automatically apply changes if separate. 
+Warn if conflict and not merge.  
 Syntax:
-git 
+git merge master 
 Screenshot:
 
 10.	Clone 
-Definition and usage:
-
-Syntax:
-git 
-Screenshot:
 
